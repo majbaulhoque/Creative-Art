@@ -1,12 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 import "bootstrap/dist/css/bootstrap.min.css";
-import img1 from "../../../../src/assets/Images/banner-flower.jpg";
-import img2 from "../../../../src/assets/Images/banner-icecream2.jpg";
-import img3 from "../../../../src/assets/Images/banner-1.jpg";
 import "../../../../src/assets/Home/Banner/Banner.css";
 
 const Banner = () => {
   return (
-    <section className="hero-section   mt-5 d-flex align-items-center">
+    <section  className="hero-section   mt-5 d-flex align-items-center">
       <div className="  d-flex container flex-lg-row gap-5 flex-column-reverse justify-content-between align-items-center flex-wrap ">
         <div className="hero-text ">
           <h1 className="display-4 fw-bold">
@@ -38,19 +36,19 @@ const Banner = () => {
           <img
            className="image-1"
             width={200}
-            src={img1}
+            src="/Images/banner-flower.jpg"
             alt="Creative Art Product Design"
           />
           <img
              className="image-2"
             width={200}
-            src={img2}
+            src={"/Images/banner-icecream2.jpg"}
             alt="Creative Art Product Design"
           />
           <img
              className="image-3"
             width={200}
-            src={img3}
+            src={"/public/Images/banner-1.jpg"}
             alt="Creative Art Product Design"
           />
         </div>

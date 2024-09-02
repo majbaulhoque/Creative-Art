@@ -4,7 +4,7 @@ import Logo from '../Logo';
 
 const NavBar = () => {
     return (
-        <div className='d-flex justify-content-around align-items-center fixed-top nav-container' >
+        <div className='d-flex justify-content-around align-items-center z-3 sticky-top nav-container' >
             <div>
                 <Logo />
             </div>
