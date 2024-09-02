@@ -1,0 +1,33 @@
+.our-curriculum {
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .our-curriculum h2 {
+    font-size: 2.5rem;
+    color: #343a40; /* Dark text color for better readability */
+  }
+  
+  .our-curriculum .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .our-curriculum .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-height {
+    min-height: 250px; /* Set a minimum height for the cards */
+  }
+  
+  .our-curriculum .list-unstyled li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .our-curriculum .list-unstyled li .me-2 {
+    font-size: 1.2rem;
+    color: #343a40;
+    margin-right: 10px;
+  }
+  

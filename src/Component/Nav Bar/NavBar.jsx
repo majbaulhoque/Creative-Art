@@ -18,7 +18,7 @@ const NavBar = () => {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto fw-bolder text-dark">
-                                <NavDropdown onClick={() => navigate('/')} title="Home" href="/" id="basic-nav-dropdown">
+                                <NavDropdown className='text-dark' onClick={() => navigate('/')} title="Home" href="/" id="basic-nav-dropdown">
                                     <NavDropdown.Item href="/about">About Us</NavDropdown.Item>
                                     <NavDropdown.Item href="/whyUs">
                                         Why Us
@@ -28,7 +28,7 @@ const NavBar = () => {
                                         Our curriculum
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="Classes" href="/curriculum" id="basic-nav-dropdown">
+                                <NavDropdown className='text-dark' title="Classes" href="/curriculum" id="basic-nav-dropdown">
                                     <NavDropdown.Item href="#action/3.1">Adults</NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.2">
                                         Teens

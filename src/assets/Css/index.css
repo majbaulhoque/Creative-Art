@@ -13,7 +13,7 @@ body {
     border-color: #6b04ff;
 }
 .custom-border{
-    border:1px solid #6b04ff;
+    border:1px solid #6b04ff !important;
 }
 
 .nav-container {
@@ -33,6 +33,9 @@ body {
     text-align: justify;
 }
 
+.text-main{
+    color: #6a00ff !important;
+}
 @media screen and (min-width: 992px) {
     .dropdown:hover .dropdown-menu {
         display: block !important; 
