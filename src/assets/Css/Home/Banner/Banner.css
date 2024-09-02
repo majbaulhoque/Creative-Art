@@ -57,13 +57,11 @@
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1368px) {
     .hero-images .image-1,
     .hero-images .image-2,
     .hero-images .image-3 {
-      position: relative;
-      transform: none;
-      margin-bottom: 20px;
+      width: 30%;
     }
   }
   
