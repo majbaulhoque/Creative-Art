@@ -1,6 +1,6 @@
 const AboutUs = () => {
     return (
-        <div className="container mt-5" >
+        <div className="container" style={{marginTop: '90px'}} >
             <div className="row d-flex align-items-center my-5">
                 <div className="col-12 col-md-6 col-lg-5 mb-3 mb-md-0">
                     <img

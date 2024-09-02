@@ -4,7 +4,7 @@ import "../../../../src/assets/Css/Home/Banner/Banner.css";
 
 const Banner = () => {
   return (
-    <section  className="hero-section   mt-5 d-flex align-items-center">
+    <section className="hero-section   mt-5 d-flex align-items-center">
       <div className="  d-flex container flex-lg-row gap-5 flex-column-reverse justify-content-between align-items-center  ">
         <div className="hero-text ">
           <h1 className="display-4 fw-bold">
@@ -34,19 +34,19 @@ const Banner = () => {
         </div>
         <div className="hero-images   ">
           <img
-           className="image-1"
+            className="image-1"
             width={200}
             src="/Images/banner-flower.jpg"
             alt="Creative Art Product Design"
           />
           <img
-             className="image-2"
+            className="image-2"
             width={200}
             src={"/Images/banner-icecream2.jpg"}
             alt="Creative Art Product Design"
           />
           <img
-             className="image-3"
+            className="image-3"
             width={200}
             src={"/Images/banner-1.jpg"}
             alt="Creative Art Product Design"
