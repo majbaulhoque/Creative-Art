@@ -1,5 +1,7 @@
 import Banner from "../../Component/Home/Banner/Banner";
 
+
+
 const Home = () => {
   return (
     <div className="">
