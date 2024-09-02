@@ -9,7 +9,7 @@ const AdultClass = () => {
           </div>
           <div className="">
             <div className="text-center">
-              <h2 className="text-center fw-bold">For Adults</h2>
+              <h2 className="text-center fw-bold">For <span >Adult</span></h2>
               <p className="text-secondary">
                 At Creative Art and Design, we have pioneered a distinctive approach enabling adults,
                 regardless of their proficiency levels, to customize a program aligned with their
