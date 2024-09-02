@@ -1,19 +1,17 @@
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import '../../../src/assets/Css/index.css'
+import '../../../src/assets/Css/index.css';
 import Logo from '../Logo';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
-
     const navigate = useNavigate()
-
     return (
-        <div className='d-flex justify-content-around align-items-center z-3 sticky-top nav-container' >
+        <div className='d-flex justify-content-around align-items-center z-3 sticky-top nav-container'>
             <div>
                 <Logo />
             </div>
             <div className='navbar-container'>
-                <Navbar expand="lg" className="">
+                <Navbar expand="lg">
                     <Container>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
@@ -35,10 +33,9 @@ const NavBar = () => {
                                     </NavDropdown.Item>
                                     <NavDropdown.Item href="#action/3.3">Kids</NavDropdown.Item>
                                 </NavDropdown>
-                                <Nav.Link href="#home" className='text-dark'>Workshop</Nav.Link>
-                                <Nav.Link href="#link" className='text-dark'>Products</Nav.Link>
-                                <Nav.Link href="#link" className='text-dark'>Contact Us</Nav.Link>
-
+                                <Nav.Link as={Link} to="/workshop" className='text-dark'>Workshop</Nav.Link>
+                                <Nav.Link as={Link} to="/products" className='text-dark'>Products</Nav.Link>
+                                <Nav.Link as={Link} to="/contact" className='text-dark'>Contact Us</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

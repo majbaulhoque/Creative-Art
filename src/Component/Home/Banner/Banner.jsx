@@ -34,19 +34,19 @@ const Banner = () => {
         </div>
         <div className="hero-images   ">
           <img
-           className="image-1"
+            className="image-1"
             width={200}
             src="/Images/banner-flower.jpg"
             alt="Creative Art Product Design"
           />
           <img
-             className="image-2"
+            className="image-2"
             width={200}
             src={"/Images/banner-icecream2.jpg"}
             alt="Creative Art Product Design"
           />
           <img
-             className="image-3"
+            className="image-3"
             width={200}
             src={"/Images/banner-1.jpg"}
             alt="Creative Art Product Design"
