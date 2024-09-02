@@ -1,9 +1,10 @@
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import '../../../src/assets/Css/index.css';
 import Logo from '../Logo';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
+    const navigate = useNavigate()
     return (
         <div className='d-flex justify-content-around align-items-center z-3 sticky-top nav-container'>
             <div>
@@ -15,23 +16,22 @@ const NavBar = () => {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto fw-bolder text-dark">
-                                <NavDropdown
-                                    title={
-                                        <Link to="/" className="text-dark text-decoration-none">
-                                            Home
-                                        </Link>
-                                    }
-                                    id="basic-nav-dropdown"
-                                >
-                                    <NavDropdown.Item as={Link} to="/about">About Us</NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/whyUs">Why Us</NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/vision">Our Vision</NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/curriculum">Our Curriculum</NavDropdown.Item>
+                                <NavDropdown className='text-dark' onClick={() => navigate('/')} title="Home" href="/" id="basic-nav-dropdown">
+                                    <NavDropdown.Item href="/about">About Us</NavDropdown.Item>
+                                    <NavDropdown.Item href="/whyUs">
+                                        Why Us
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item href="/vision">Our Vision</NavDropdown.Item>
+                                    <NavDropdown.Item href="/curriculum">
+                                        Our curriculum
+                                    </NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="Classes" id="basic-nav-dropdown">
-                                    <NavDropdown.Item as={Link} to="/curriculum/adults">Adults</NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/curriculum/teens">Teens</NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/curriculum/kids">Kids</NavDropdown.Item>
+                                <NavDropdown className='text-dark' title="Classes" href="/curriculum" id="basic-nav-dropdown">
+                                    <NavDropdown.Item href="#action/3.1">Adults</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.2">
+                                        Teens
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.3">Kids</NavDropdown.Item>
                                 </NavDropdown>
                                 <Nav.Link as={Link} to="/workshop" className='text-dark'>Workshop</Nav.Link>
                                 <Nav.Link as={Link} to="/products" className='text-dark'>Products</Nav.Link>
