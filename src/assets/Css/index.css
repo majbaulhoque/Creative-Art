@@ -1,28 +1,21 @@
-/* .nav-container{
-    background-color: gray;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.btn-primary-custom {
+    background-color: #6b04ff;
+    border-color: #6b04ff;
+}
+.btn-primary-custom:hover {
+    background-color: #6a00ff;
+    color: white;
+    border-color: #6b04ff;
+}
+.custom-border{
+    border:1px solid #6b04ff;
 }
 
-@media screen and (min-width: 992px){
-    .dropdown:hover .dropdown-menu{
-        display: block !important; 
-        margin-top: 0;
-    }
-    
-    .dropdown .dropdown-menu{
-        display: none;
-    }
-
-    .dropdown:hover .dropdown-toggle::after{
-        border-top: 0;
-        border-bottom: .3em solid;
-    }
-}
-@media screen and (min-width: 992px){
-    .dropdown-toggle.show::after{
-        border-top: 0;
-        border-bottom: .3rem solid;
-    }
-} */
 .nav-container {
     background-color: #B9CBFE;
 }
@@ -30,6 +23,14 @@
 /* Remove the dropdown icon */
 .navbar .dropdown-toggle::after {
     display: none !important;
+}
+
+.child-artist{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+
+.common-description{
+    text-align: justify;
 }
 
 @media screen and (min-width: 992px) {

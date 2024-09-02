@@ -1,6 +1,6 @@
 
 
-const HomePage = () => {
+const Curriculum = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default Curriculum;
