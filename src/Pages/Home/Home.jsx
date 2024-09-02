@@ -1,9 +1,10 @@
+import HomePage from "../../Component/Home Page/HomePage";
 
 
 const Home = () => {
     return (
-        <div className=""> 
-            This Is Home
+        <div className="" style={{marginTop: '90px'}}> 
+            <HomePage />
         </div>
     );
 };
