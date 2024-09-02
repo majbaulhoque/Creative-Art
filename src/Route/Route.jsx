@@ -1,10 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../Pages/Home/Home";
+import Classes from "../Pages/Classes/Classes";
 import MainLayout from "../Layout/MainLayout";
 import AboutUs from "../Component/Home/AboutUs";
 import WhyUs from "../Component/Home/WhyUs";
 import OurVision from "../Component/Home/OurVision";
 import Curriculum from "../Component/Home/Curriculum.JSX";
+
 
 const Route = createBrowserRouter([
     {
@@ -31,6 +33,10 @@ const Route = createBrowserRouter([
                 path: '/curriculum',
                 element: <Curriculum />,
             },
+            {
+                path :"/classes",
+                element : <Classes />
+            }
         ],
     },
 ])

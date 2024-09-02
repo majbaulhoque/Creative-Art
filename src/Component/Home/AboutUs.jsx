@@ -31,7 +31,7 @@ const AboutUs = () => {
                         </li>
 
                     </ul>
-                    <h5>At CAD, we celebrate creativity, diversity, and inclusivity. Join us and discover a world of artistic expression, growth, and opportunity."
+                    <h5>At CAD, we celebrate creativity, diversity, and inclusivity. Join us and discover a world of artistic expression, growth, and opportunity.
                     </h5>
                     </div>
                 </div>
