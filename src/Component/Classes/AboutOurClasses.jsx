@@ -1,5 +1,4 @@
-
-import whyUsImage from '../../../public/Images/whyUs.jpg';
+import { FaPalette, FaComments, FaUserCheck, FaChalkboardTeacher, FaUsers } from 'react-icons/fa';
 
 const AboutOurClasses = () => {
     return (
@@ -18,25 +17,25 @@ const AboutOurClasses = () => {
                         <p className="common-description mb-4">
                             We welcome adults, kids, and teens alike, as well as private events for corporate groups and birthday parties! CAD offers a LIVE, interactive art class experience from the comfort of your home. Taught by our top-notch professional art educators, our online classes are live so that you can benefit from social connection, creative engagement, and even more hands-on demonstrations by our art instructors.
                         </p>
-                        <ul className="list-unstyled">
+                        <ul className='list-unstyled '>
                             <li className="mb-2">
-                                <i className="bi bi-check-circle-fill text-primary me-2"></i>
+                                <FaPalette className="mr-2 me-2 " style={{ color: '#FF5733' }} />
                                 Learning and practicing new artistic techniques
                             </li>
                             <li className="mb-2">
-                                <i className="bi bi-check-circle-fill text-primary me-2"></i>
+                                <FaComments className="mr-2 me-2" style={{ color: '#33C3FF' }} />
                                 Group critiques to engage and interact with your classmates
                             </li>
                             <li className="mb-2">
-                                <i className="bi bi-check-circle-fill text-primary me-2"></i>
+                                <FaUserCheck className="mr-2 me-2" style={{ color: '#28A745' }} />
                                 Individualized one-on-one feedback
                             </li>
                             <li className="mb-2">
-                                <i className="bi bi-check-circle-fill text-primary me-2"></i>
+                                <FaChalkboardTeacher className="mr-2 me-2" style={{ color: '#FFC107' }} />
                                 Customized instruction based on your needs and interests
                             </li>
                             <li className="mb-2">
-                                <i className="bi bi-check-circle-fill text-primary me-2"></i>
+                                <FaUsers className="mr-2 me-2" style={{ color: '#6F42C1' }} />
                                 Connecting to our warm, encouraging art community
                             </li>
                         </ul>
@@ -45,7 +44,7 @@ const AboutOurClasses = () => {
                     {/* Image */}
                     <div className="col-12 col-md-5 mt-4 mt-md-0">
                         <img
-                            src={whyUsImage}
+                            src='../../../public/Images/whyUs.jpg'
                             alt="Why Choose Us"
                             className="img-fluid rounded shadow"
                         />
