@@ -1,10 +1,15 @@
-import AdultClass from "../../Component/Classes/AdultClass";
-import "../../../src/assets/Css/Classes/Classes.css"
+import AboutOurClasses from "../../Component/Classes/AboutOurClasses";
+import FineArt from "../../Component/Classes/FineArt";
+import VisualArt from "../../Component/Classes/VisualArt";
+
 
 const Classes = () => {
   return (
     <div>
-      <AdultClass />
+      <AboutOurClasses />
+      <FineArt />
+      <VisualArt />
+      
     </div>
   );
 };

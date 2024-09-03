@@ -6,6 +6,9 @@ import AboutUs from "../Component/Home/AboutUs";
 import WhyUs from "../Component/Home/WhyUs";
 import OurVision from "../Component/Home/OurVision";
 import Curriculum from "../Component/Home/Curriculum.JSX";
+import AboutOurClasses from "../Component/Classes/AboutOurClasses";
+import FineArt from "../Component/Classes/FineArt";
+import VisualArt from "../Component/Classes/VisualArt";
 
 
 const Route = createBrowserRouter([
@@ -35,8 +38,20 @@ const Route = createBrowserRouter([
             },
             {
                 path :"/classes",
-                element : <Classes />
-            }
+                element : <Classes />,
+            },
+            {
+                path :"/aboutOurClasses",
+                element : <AboutOurClasses />,
+            },
+            {
+                path :"/fineArt",
+                element : <FineArt />,
+            },
+            {
+                path :"/visualArt",
+                element : <VisualArt />,
+            },
         ],
     },
 ])

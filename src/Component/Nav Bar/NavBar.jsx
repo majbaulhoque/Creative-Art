@@ -33,9 +33,9 @@ const NavBar = () => {
                                         Classes
                                     </Link>
                                 }>
-                                    <NavDropdown.Item as={Link} to="/curriculum/adults">About Our Classes</NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/curriculum/teens">Fine Art</NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/curriculum/kids">Visual Art</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/aboutOurClasses">About Our Classes</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/fineArt">Fine Art</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/visualArt">Visual Art</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/curriculum/kids">Social Presentation</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/curriculum/kids">Digital Art</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/curriculum/kids">Adults Development</NavDropdown.Item>
