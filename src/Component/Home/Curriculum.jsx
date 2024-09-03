@@ -3,7 +3,6 @@ import { Card, Container, } from "react-bootstrap";
 import {
   FaPaintBrush,
   FaFilm,
- 
   FaPencilRuler,
   FaCircle,
   FaSquare,
@@ -38,11 +37,11 @@ const Curriculum = () => {
             alt=""
           />
           <Card
-            style={{ height: "max-content" , backgroundColor:'transparent' }}
+            style={{ height: "max-content", backgroundColor: 'transparent' }}
             className="border-0 shadow-md rounded card-height"
           >
             <Card.Body className="text-center">
-            <SiElement size={50} className="text-main mb-3" />
+              <SiElement size={50} className="text-main mb-3" />
               <Card.Title>Elements of Visual Art</Card.Title>
               <Card.Text className="text-center">
                 Mastering the fundamentals of:
@@ -81,13 +80,13 @@ const Curriculum = () => {
         </div>
         {/* forst */}
         <div className="d-flex mt-5 justify-content-around  gap-5 flex-column-reverse flex-md-row align-items-center">
-         
+
           <Card
-             style={{ height: "max-content" , backgroundColor:'transparent' }}
+            style={{ height: "max-content", backgroundColor: 'transparent' }}
             className="border-0 shadow-md rounded card-height"
           >
             <Card.Body className="text-center ">
-            <TbBrandVisualStudio size={50} className="text-main mb-3" />
+              <TbBrandVisualStudio size={50} className="text-main mb-3" />
               <Card.Title>Forms of Visual Art</Card.Title>
               <Card.Text className="text-center">
                 Developing skills in various mediums, including:
@@ -143,7 +142,7 @@ const Curriculum = () => {
             alt=""
           />
           <Card
-            style={{ height: "max-content" , backgroundColor:'transparent' }}
+            style={{ height: "max-content", backgroundColor: 'transparent' }}
             className="border-0 shadow-md rounded card-height"
           >
             <Card.Body className="text-center">
@@ -169,9 +168,9 @@ const Curriculum = () => {
         </div>
         {/* forst */}
         <div className="d-flex mt-5 justify-content-around gap-5 flex-column-reverse flex-md-row align-items-center">
-         
+
           <Card
-             style={{ height: "max-content" , backgroundColor:'transparent' }}
+            style={{ height: "max-content", backgroundColor: 'transparent' }}
             className="border-0 shadow-md rounded card-height"
           >
             <Card.Body className="text-center">
