@@ -17,7 +17,7 @@ const WhyUs = () => {
                     </div>
                     <div className="col-12 col-md-5">
                         <img
-                            src="../../../Images/whyUs.jpg"
+                            src="/Images/whyUs.jpg"
                             alt="Why Us"
                             className="img-fluid why-us-image"
                         />

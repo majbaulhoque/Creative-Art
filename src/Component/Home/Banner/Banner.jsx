@@ -4,16 +4,17 @@ import "../../../../src/assets/Css/Home/Banner/Banner.css";
 
 const Banner = () => {
   return (
-    <section  className="hero-section mb-5  mt-5 d-flex align-items-center">
+    <section className="hero-section mb-5  mt-5 d-flex align-items-center">
       <div className="  d-flex container flex-lg-row gap-5 flex-column-reverse justify-content-between align-items-center  ">
         <div className="hero-text ">
           <h1 className="display-4 fw-bold">
-            We do the designs so you don't have to
+            We do the best to make you an artist
           </h1>
           <p className="text-secondary-emphasis my-4">
-            Get a trusted design partner for one flat monthly rate and access
-            skilled and talented designers to take care of all your design
-            projects under one roof.
+            Unlock your creative potential with a trusted design partner. For
+            one flat monthly rate, gain access to skilled and talented artists
+            who will bring your art and drawing projects to life, all under one
+            roof
           </p>
           <div className="hero-buttons">
             <a
@@ -27,7 +28,7 @@ const Banner = () => {
             </a>
           </div>
           <div className="hero-benefits text-nowrap d-flex flex-lg-row flex-column mt-4">
-            <p className="me-3">✔ Experienced designers</p>
+            <p className="me-3">✔ Experienced Teachers</p>
             <p className="me-3">✔ Unlimited scalability</p>
             <p>✔ Quick turnaround</p>
           </div>

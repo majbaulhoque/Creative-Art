@@ -36,10 +36,10 @@ const NavBar = () => {
                                     <NavDropdown.Item as={Link} to="/aboutOurClasses">About Our Classes</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/fineArt">Fine Art</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/visualArt">Visual Art</NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/curriculum/kids">Social Presentation</NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/curriculum/kids">Digital Art</NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/curriculum/kids">Adults Development</NavDropdown.Item>
-                                    <NavDropdown.Item as={Link} to="/curriculum/kids">Art For Senior</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/social-presentation">Social Presentation</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/digital-art">Digital Art</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/adults-development">Adults Development</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/art-for-senior">Art For Senior</NavDropdown.Item>
                                 </NavDropdown>
                                 <Nav.Link as={Link} to="/workshop" className='text-dark'>Events</Nav.Link>
                                 <Nav.Link as={Link} to="/products" className='text-dark'>Products</Nav.Link>
