@@ -16,7 +16,7 @@ const Banner = () => {
             who will bring your art and drawing projects to life, all under one
             roof
           </p>
-          <div className="hero-buttons">
+          <div className="hero-buttons d-none">
             <a
               href="#"
               className="btn text-white px-4 py-2 rounded-3 btn-primary-custom me-3"

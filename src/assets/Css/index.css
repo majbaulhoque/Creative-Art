@@ -36,6 +36,9 @@ body {
 }
 
 
+.bg-custom-dark {
+  background-color: #f8f9fa !important;
+}
 .visual-li{
     margin-left: 24px;
     margin-top: -8px;
@@ -50,6 +53,7 @@ body {
     display: block !important;
     margin-top: 0;
   }
+  
 
   .dropdown .dropdown-menu {
     display: none;

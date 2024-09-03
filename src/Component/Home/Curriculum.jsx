@@ -30,9 +30,9 @@ const Curriculum = () => {
           </p>
         </div>
         {/* forst */}
-        <div className="d-flex mt-5 justify-content-around gap-5 flex-column flex-md-row align-items-center">
+        <div className="d-flex mt-5 justify-content-around gap-5 flex-column flex-lg-row align-items-center">
           <img
-            style={{ maxWidth: "400px" }}
+           className="col-lg-4 col-11"
             src="/Images/banner-flower.jpg"
             alt=""
           />
@@ -79,7 +79,7 @@ const Curriculum = () => {
           </Card>
         </div>
         {/* forst */}
-        <div className="d-flex mt-5 justify-content-around  gap-5 flex-column-reverse flex-md-row align-items-center">
+        <div className="d-flex mt-5 justify-content-around  gap-5 flex-column-reverse flex-lg-row align-items-center">
 
           <Card
             style={{ height: "max-content", backgroundColor: 'transparent' }}
@@ -129,15 +129,15 @@ const Curriculum = () => {
             </Card.Body>
           </Card>
           <img
-            style={{ maxWidth: "400px" }}
+           className="col-lg-4 col-11"
             src="/Images/design-art.jpg"
             alt=""
           />
         </div>
         {/* forst */}
-        <div className="d-flex mt-5 justify-content-around gap-5 flex-column flex-md-row align-items-center">
+        <div className="d-flex mt-5 justify-content-around gap-5 flex-column flex-lg-row align-items-center">
           <img
-            style={{ maxWidth: "400px" }}
+           className="col-lg-4 col-11"
             src="/Images/banner-1.jpg"
             alt=""
           />
@@ -151,7 +151,7 @@ const Curriculum = () => {
               <Card.Text>
                 Understanding the historical and cultural context of art
                 through:
-                <ul className="list-unstyled d-flex flex-md-row flex-column justify-content-around items-center gap-3 mt-2">
+                <ul className="list-unstyled d-flex flex-lg-row flex-column justify-content-around items-center gap-3 mt-2">
                   <li>
                     <FaFilm className="me-2  text-main" /> Presentations
                   </li>
@@ -167,7 +167,7 @@ const Curriculum = () => {
           </Card>
         </div>
         {/* forst */}
-        <div className="d-flex mt-5 justify-content-around gap-5 flex-column-reverse flex-md-row align-items-center">
+        <div className="d-flex mt-5 justify-content-around gap-5 flex-column-reverse flex-lg-row align-items-center">
 
           <Card
             style={{ height: "max-content", backgroundColor: 'transparent' }}
@@ -183,7 +183,7 @@ const Curriculum = () => {
             </Card.Body>
           </Card>
           <img
-            style={{ maxWidth: "400px" }}
+           className="col-lg-4 col-11"
             src="/Images/writing-art.jpg"
             alt=""
           />

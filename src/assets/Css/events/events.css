@@ -1,0 +1,38 @@
+.events-section {
+    background-color: #f8f9fa;
+  }
+  
+  .animate-img {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .animate-list-item {
+    animation: fadeInLeft 0.7s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  }
+  
