@@ -49,13 +49,16 @@ body {
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
 
-
+.bg-custom-dark {
+  background-color: #f8f9fa !important;
+}
 
 @media screen and (min-width: 992px) {
   .dropdown:hover .dropdown-menu {
     display: block !important;
     margin-top: 0;
   }
+  
 
   .dropdown .dropdown-menu {
     display: none;
