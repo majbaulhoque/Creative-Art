@@ -2,9 +2,9 @@ import { FaSpa, FaLightbulb, FaCogs, FaPalette, FaTint, FaPaintBrush, FaPencilAl
 
 const FineArt = () => {
     return (
-        <div style={{ backgroundColor: "#f8f9fa", paddingTop: '90px', paddingBottom: '90px'}}>
+        <div style={{ backgroundColor: "#f8f9fa", paddingTop: '90px', paddingBottom: '90px' }}>
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row justify-content-between align-items-center gx-5">
                     {/* Image */}
                     <div className="col-12 col-md-5 mt-4 mt-md-0">
                         <img
@@ -14,7 +14,7 @@ const FineArt = () => {
                         />
                     </div>
                     {/* Text Content */}
-                    <div className="col-12 col-md-7">
+                    <div className="col-12 col-md-6">
                         <h2 className="fw-bolder mb-4 text-center text-md-start">CAD Fine Art Classes</h2>
                         <p className="common-description mb-4">
                             Join our intimate and supportive group classes, tailored for experienced students seeking a deeper exploration of their artistic voice. Our expert instructors provide personalized guidance, inspiration, and a fun, social atmosphere that fosters:
@@ -58,7 +58,7 @@ const FineArt = () => {
                                 Pastel
                             </li>
                         </ul>
-                        
+
                         <h3 className="fw-bolder fs-5 mb-3">Our classes cater to:</h3>
                         <ul className='list-unstyled mb-4'>
                             <li className="mb-2">
@@ -74,7 +74,7 @@ const FineArt = () => {
                                 Private events for corporate teams and birthday parties
                             </li>
                         </ul>
-                        
+
                         <p className="common-description mb-4">
                             Choose from virtual or in-person classes, designed to accommodate all ages and skill levels. Take your art to the next level with our unique program, led by professional artists dedicated to nurturing your creative journey.
                         </p>

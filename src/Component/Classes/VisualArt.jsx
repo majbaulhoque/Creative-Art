@@ -5,7 +5,7 @@ const VisualArt = () => {
         <div>
             <section className="about-our-classes py-5">
                 <div className="container">
-                    <div className="row align-items-center" >
+                    <div className="row align-items-center gx-5" >
 
                         {/* Image */}
                         <div className="col-12 col-md-5 order-1 order-sm-2 mt-4 mt-md-0">

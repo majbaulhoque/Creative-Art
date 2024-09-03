@@ -4,7 +4,7 @@ const AboutOurClasses = () => {
     return (
         <section className="about-our-classes py-5">
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row align-items-center gx-5">
                     {/* Text Content */}
                     <div className="col-12 col-md-7">
                         <h2 className="fw-bolder mb-4">ABOUT OUR CLASSES</h2>
