@@ -12,7 +12,6 @@ function DigitalArt() {
     <div>
       <Container className="my-5">
         <Row className="align-items-center flex-lg-row flex-column-reverse">
-        
           <Col lg={6} className="mt-4 mt-md-0">
             <Card className="border-0">
               <Card.Body>
@@ -94,15 +93,16 @@ function DigitalArt() {
             </Card>
           </Col>
           <Col className="text-lg-end" lg={6}>
-            <Image
-            // style={{maxHeight:"500px"}}
-              src={"/Images/banner-icecream2.jpg"}
-              fluid
-              className="rounded ms-auto mt-lg-0 mt-5 text-lg-end col-lg-9 mb-lg-0 mb-5 responsive-image shadow-lg"
-              alt="Digital Art and Graphic Design Class"
-            />
+            <div style={{maxHeight:'400px'}} className="overflow-hidden">
+              <Image
+                // style={{maxHeight:"500px"}}
+                src={"/Images/banner-icecream2.jpg"}
+                fluid
+                className="rounded object-cover ms-auto mt-lg-0 mt-5 text-lg-end col-lg-9 mb-lg-0 mb-5 responsive-image shadow-lg"
+                alt="Digital Art and Graphic Design Class"
+              />
+            </div>
           </Col>
-          
         </Row>
       </Container>
     </div>

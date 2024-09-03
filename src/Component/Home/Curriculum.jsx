@@ -32,7 +32,7 @@ const Curriculum = () => {
         {/* forst */}
         <div className="d-flex mt-5 justify-content-around gap-5 flex-column flex-lg-row align-items-center">
           <img
-           className="col-lg-4"
+           className="col-lg-4 col-11"
             src="/Images/banner-flower.jpg"
             alt=""
           />
@@ -129,7 +129,7 @@ const Curriculum = () => {
             </Card.Body>
           </Card>
           <img
-           className="col-lg-4"
+           className="col-lg-4 col-11"
             src="/Images/design-art.jpg"
             alt=""
           />
@@ -137,7 +137,7 @@ const Curriculum = () => {
         {/* forst */}
         <div className="d-flex mt-5 justify-content-around gap-5 flex-column flex-lg-row align-items-center">
           <img
-           className="col-lg-4"
+           className="col-lg-4 col-11"
             src="/Images/banner-1.jpg"
             alt=""
           />
@@ -183,7 +183,7 @@ const Curriculum = () => {
             </Card.Body>
           </Card>
           <img
-           className="col-lg-4"
+           className="col-lg-4 col-11"
             src="/Images/writing-art.jpg"
             alt=""
           />

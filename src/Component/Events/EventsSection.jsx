@@ -9,19 +9,26 @@ const EventsSection = () => {
     <section className="events-section py-5">
       <Container>
         <Row className="align-items-center">
-          <Col md={6} className="mb-4 mb-md-0">
+          <Col md={12} className="mb-4 d-flex flex-lg-row flex-column justify-content-center gap-5 mb-md-0">
             <img 
-              src="your-image-url-here.jpg" 
+              src="/Images/event-2.png" 
               alt="Art Event" 
-              className="img-fluid rounded shadow-lg animate-img" 
+              className="img-fluid col-lg-4 rounded shadow-lg animate-img" 
+            />
+            <img 
+              src="/Images/event-1.png" 
+              alt="Art Event" 
+              className="img-fluid rounded col-lg-4 shadow-lg animate-img" 
             />
           </Col>
-          <Col md={6}>
-            <h2 className="mb-4">Join us for unforgettable art events at CAD!</h2>
-            <p className="lead">
+          <Col className='bg-custom-dark mt-5 text-center' md={12}>
+           <div className='mb-4'>
+           <h3 className="mb-2">Join us for unforgettable <span className='text-main'>art events</span> at CAD!</h3>
+            <p>
               Where self-expression meets joy. Our hassle-free parties and private events offer:
             </p>
-            <ListGroup variant="flush" className="event-details mb-4">
+           </div>
+            <ListGroup  className="event-details bg-custom-dark mb-4">
               <ListGroup.Item className="d-flex align-items-center animate-list-item">
                 <MdCelebration className="icon text-primary me-2" /> 
                 Fully customized art experiences tailored to your goals and interests
@@ -43,8 +50,10 @@ const EventsSection = () => {
                 Expert setup and cleanup, so you can focus on the fun!
               </ListGroup.Item>
             </ListGroup>
-            <h4 className="mb-3">Choose from a variety of events, including:</h4>
-            <ListGroup variant="flush" className="event-types">
+            <div className='mt-5 mb-4'>
+            <h3 className="">Choose from a <span className='text-main'>variety</span> of events, including:</h3>
+            </div>
+            <ListGroup className="event-types">
               <ListGroup.Item className="d-flex align-items-center animate-list-item">
                 <FaBirthdayCake className="icon text-primary me-2" /> Birthday Parties
               </ListGroup.Item>

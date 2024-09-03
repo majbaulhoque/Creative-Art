@@ -41,7 +41,7 @@ const NavBar = () => {
                                     <NavDropdown.Item as={Link} to="/adults-development">Adults Development</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/art-for-senior">Art For Senior</NavDropdown.Item>
                                 </NavDropdown>
-                                <Nav.Link as={Link} to="/workshop" className='text-dark'>Events</Nav.Link>
+                                <Nav.Link as={Link} to="/events" className='text-dark'>Events</Nav.Link>
                                 <Nav.Link as={Link} to="/products" className='text-dark'>Products</Nav.Link>
                                 <Nav.Link as={Link} to="/contact" className='text-dark'>Contact Us</Nav.Link>
                             </Nav>
