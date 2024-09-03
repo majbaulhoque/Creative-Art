@@ -12,6 +12,7 @@ import VisualArt from "../Component/Classes/VisualArt";
 import SocialPresentation from "../Component/Classes/SocialPresentation";
 import AdultsDevelopment from "../Component/Classes/AdultsDevelopment";
 import DigitalArt from "../Component/Classes/DigitalArt";
+import ArtForSenior from "../Component/Classes/ArtForSenior";
 
 const Route = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const Route = createBrowserRouter([
       {
         path: "/adults-development",
         element: <AdultsDevelopment />,
+      },
+      {
+        path: "/art-for-senior",
+        element: <ArtForSenior />,
       },
     ],
   },
