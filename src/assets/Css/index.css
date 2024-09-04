@@ -28,7 +28,7 @@ body {
 
 
 .common-description {
-  text-align: justify;
+  text-align: justify !important;
 }
 
 .text-main {

@@ -29,7 +29,7 @@ function AdultsDevelopment() {
                 <h4 className="fw-medium text-lg-start text-center">
                   Empowering Creativity in a Supportive Environment
                 </h4>
-                <p className="mt-4">
+                <p className="mt-4 common-description">
                   Our inclusive art classes offer a vibrant and supportive
                   environment where adults with developmental or intellectual
                   disabilities can thrive. Through stimulating and colorful

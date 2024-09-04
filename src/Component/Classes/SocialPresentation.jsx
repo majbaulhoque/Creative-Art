@@ -28,7 +28,7 @@ const SocialPresentation = () => {
                   CAD <span className="text-main">Social</span> Presentation
                 </h3>
                 <h4 className="fw-medium">Setting the Stage for Confidence</h4>
-                <p className="mt-4">
+                <p className="mt-4 common-description">
                   Unlock the art of effective social skills, communication, and
                   self-expression in our CAD Social Presentation class. This
                   dynamic and interactive program is designed to:

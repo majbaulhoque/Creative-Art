@@ -21,7 +21,7 @@ function ArtForSenior() {
                 <h4 className="fw-medium text-lg-start text-center">
                   Unleashing Creativity in Later Life
                 </h4>
-                <p className="mt-4">
+                <p className="mt-4 common-description">
                   Our CAD Art for Seniors program is a vibrant and inclusive
                   initiative designed to nurture the artistic spirit in
                   individuals at every level of care. We believe that creativity
