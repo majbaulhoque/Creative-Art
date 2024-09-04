@@ -47,6 +47,9 @@ body {
 .visual-ul{
     margin-top: -16px;
 }
+.custom-dropdown > a {
+  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+}
 
 @media screen and (min-width: 992px) {
   .dropdown:hover .dropdown-menu {
