@@ -27,7 +27,7 @@ const NavBar = () => {
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto fw-bolder text-dark">
                                 <NavDropdown
-                                    className="text-dark text-decoration-none"
+                                    className="text-dark custom-dropdown text-decoration-none"
                                     title="Home"
                                     show={openDropdown === 'home'}
                                     onMouseEnter={() => handleMouseEnter('home')}
@@ -40,7 +40,7 @@ const NavBar = () => {
                                     <NavDropdown.Item as={Link} to="/curriculum">Our Curriculum</NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown
-                                    className="text-dark text-decoration-none"
+                                    className="text-dark custom-dropdown text-decoration-none"
                                     title="Classes"
                                     show={openDropdown === 'classes'}
                                     onMouseEnter={() => handleMouseEnter('classes')}
@@ -58,9 +58,9 @@ const NavBar = () => {
                                 <Nav.Link as={Link} to="/events" className='text-dark' onMouseEnter={handleMouseLeave}>
                                     Events
                                 </Nav.Link>
-                                <Nav.Link as={Link} to="/products" className='text-dark' onMouseEnter={handleMouseLeave}>
+                                {/* <Nav.Link as={Link} to="/products" className='text-dark' onMouseEnter={handleMouseLeave}>
                                     Products
-                                </Nav.Link>
+                                </Nav.Link> */}
                                 <Nav.Link as={Link} to="/contact" className='text-dark' onMouseEnter={handleMouseLeave}>
                                     Contact Us
                                 </Nav.Link>
