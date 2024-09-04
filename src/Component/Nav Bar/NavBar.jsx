@@ -1,75 +1,76 @@
-import { Link } from "react-router-dom";
-import { FaPhoneAlt, FaEnvelope, FaRegClock } from 'react-icons/fa';
-import FormfacadeEmbed from "@formfacade/embed-react";
+import { useState } from 'react';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import '../../../src/assets/Css/index.css';
+import Logo from '../Logo';
+import { Link } from 'react-router-dom';
 
-const Contact = () => {
+const NavBar = () => {
+    const [openDropdown, setOpenDropdown] = useState(null);
+
+    const handleMouseEnter = (dropdown) => {
+        setOpenDropdown(dropdown);
+    };
+
+    const handleMouseLeave = () => {
+        setOpenDropdown(null);
+    };
+
     return (
-        <div className="container my-4">
-            <div className="row">
-                <div className="col-12 col-md-6 mb-4">
-                    <h2 className="fw-bolder mb-4 border-bottom py-3 border-2 border-dark text-center text-md-start">Contact Details</h2>
-                    <ul className="list-unstyled">
-                        <li className="mb-3 fs-5 d-flex align-items-center">
-                            <FaPhoneAlt className="me-3" style={{ color: '#32CD32' }} />
-                            <span>017xxxxxxxxx</span>
-                        </li>
-                        <li className="mb-3 fs-5 d-flex align-items-center">
-                            <FaEnvelope className="me-3" style={{ color: '#FF4500' }} />
-                            <span>info@creativeartanddesigninc.com</span>
-                        </li>
-                    </ul>
-                    <div className="text-center text-md-start">
-                        <h2 className="fw-bolder mb-4 border-bottom py-3 border-2 border-dark">Appointment Scheduling</h2>
-                        <Link to="https://calendly.com/event_types/user/me" target="_blank" rel="noopener noreferrer">
-                            <button className="btn btn-primary text-white px-5 py-2 rounded shadow-lg">
-                                Schedule Appointment
-                            </button>
-                        </Link>
-                    </div>
-                </div>
-                
-                <div className="col-12 col-md-6 mb-4">
-                    <h2 className="fw-bolder mb-4 border-bottom py-3 border-2 border-dark text-center text-md-start">
-                        School Hours
-                        <FaRegClock className="ms-2" style={{ color: 'red' }} />
-                    </h2>
-                    
-                    <ul className="list-unstyled">
-                        <li className="mb-2 fs-5">Monday: 9:00 a.m. - 7:00 p.m.</li>
-                        <li className="mb-2 fs-5">Tuesday: 9:00 a.m. - 7:30 p.m.</li>
-                        <li className="mb-2 fs-5">Wednesday: 9:00 a.m. - 8:30 p.m.</li>
-                        <li className="mb-2 fs-5">Thursday: 9:00 a.m. - 8:00 p.m.</li>
-                        <li className="mb-2 fs-5">Friday: 9:00 a.m. - 3:30 p.m.</li>
-                        <li className="mb-2 fs-5">Saturday: 9:30 a.m. - 4:00 p.m.</li>
-                        <li className="mb-2 fs-5 fw-bolder" style={{ color: 'red' }}>Sunday: CLOSED</li>
-                    </ul>
-                </div>
+        <div className='d-flex justify-content-around align-items-center z-3 sticky-top nav-container'>
+            <div>
+                <Logo />
             </div>
-
-            <div className="row d-flex justify-content-center align-items-center gap-4">
-                <div className="col-12 col-md-5 mb-4">
-                    <FormfacadeEmbed
-                        formFacadeURL="https://formfacade.com/include/100219976322488119961/form/1FAIpQLSctbcf7UWK-TK22XB8S5TUT0-RFH5e7jii-Z3yp3-aeKPBwZA/classic.js/?div=ff-compose"
-                        onSubmitForm={() => console.log('Form submitted')}
-                    />
-                </div>
-                <div className="col-12 col-md-6 mb-4">
-                    <h2 className="fw-bolder mb-4 text-center text-md-start">Directions</h2>
-                    <div className="embed-responsive embed-responsive-16by9">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2662.7520787215913!2d89.56075570919447!3d22.800757979243663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDQ4JzAyLjciTiA4OcKwMzMnNDguMCJF!5e1!3m2!1sen!2sbd!4v1725450259931!5m2!1sen!2sbd"
-                            width="100%"
-                            height="450"
-                            style={{ border: '2px solid #ddd', borderRadius: '10px' }}
-                            allowFullScreen
-                            referrerPolicy="no-referrer-when-downgrade"
-                            title="Google Maps Directions"
-                        ></iframe>
-                    </div>
-                </div>
+            <div className='navbar-container'>
+                <Navbar expand="lg">
+                    <Container>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+                            <Nav className="me-auto fw-bolder text-dark">
+                                <NavDropdown
+                                    className="text-dark text-decoration-none"
+                                    title="Home"
+                                    show={openDropdown === 'home'}
+                                    onMouseEnter={() => handleMouseEnter('home')}
+                                    onMouseLeave={handleMouseLeave}
+                                >
+                                    <NavDropdown.Item as={Link} to="/">Home</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/about">About Us</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/whyUs">Why Us</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/vision">Our Vision</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/curriculum">Our Curriculum</NavDropdown.Item>
+                                </NavDropdown>
+                                <NavDropdown
+                                    className="text-dark text-decoration-none"
+                                    title="Classes"
+                                    show={openDropdown === 'classes'}
+                                    onMouseEnter={() => handleMouseEnter('classes')}
+                                    onMouseLeave={handleMouseLeave}
+                                >
+                                    <NavDropdown.Item as={Link} to="/classes">Classes</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/aboutOurClasses">About Our Classes</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/fineArt">Fine Art</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/visualArt">Visual Art</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/social-presentation">Social Presentation</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/digital-art">Digital Art</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/adults-development">Adults Development</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/art-for-senior">Art For Senior</NavDropdown.Item>
+                                </NavDropdown>
+                                <Nav.Link as={Link} to="/events" className='text-dark' onMouseEnter={handleMouseLeave}>
+                                    Events
+                                </Nav.Link>
+                                <Nav.Link as={Link} to="/products" className='text-dark' onMouseEnter={handleMouseLeave}>
+                                    Products
+                                </Nav.Link>
+                                <Nav.Link as={Link} to="/contact" className='text-dark' onMouseEnter={handleMouseLeave}>
+                                    Contact Us
+                                </Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
             </div>
         </div>
     );
 };
 
-export default Contact;
+export default NavBar;
