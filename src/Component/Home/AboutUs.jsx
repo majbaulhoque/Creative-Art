@@ -4,7 +4,7 @@ const AboutUs = () => {
             <div className="row d-flex align-items-center my-5">
                 <div className="col-12 col-md-6 col-lg-5 mb-3 mb-md-0">
                     <img
-                        src="../../../Images/childArtist.jpg"
+                        src="/Images/about-us.jpg"
                         alt="Child Artist"
                         className="img-fluid child-artist"
                     />

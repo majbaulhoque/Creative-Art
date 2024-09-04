@@ -6,7 +6,7 @@ const OurVision = () => {
             <div className="row gx-5">
                 <div className="col-12 col-md-5 col-lg-4">
                     <img 
-                        src="../../../Images/ourMission.webp" 
+                        src="/Images/our-mission.jpg" 
                         alt="Our Mission"
                         className="img-fluid vision-image shadow" 
                     />

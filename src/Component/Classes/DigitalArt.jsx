@@ -96,7 +96,7 @@ function DigitalArt() {
             <div style={{maxHeight:'400px'}} className="overflow-hidden">
               <Image
                 // style={{maxHeight:"500px"}}
-                src={"/Images/banner-icecream2.jpg"}
+                src={"/Images/digital-art.jpg"}
                 fluid
                 className="rounded object-cover ms-auto mt-lg-0 mt-5 text-lg-end col-lg-9 mb-lg-0 mb-5 responsive-image shadow-lg"
                 alt="Digital Art and Graphic Design Class"
