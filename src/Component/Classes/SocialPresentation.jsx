@@ -15,7 +15,7 @@ const SocialPresentation = () => {
           <Col lg={6} className="">
             <Image
             //   style={{ maxWidth: "500px" }}
-            src={"/Images/banner-1.jpg"}
+            src={"/Images/social-presentation.jpg"}
               fluid
               className="rounded mt-lg-0 mt-5 col-lg-9 mb-lg-0 mb-5 responsive-image shadow-lg"
               alt="Social Presentation"

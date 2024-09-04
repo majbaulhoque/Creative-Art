@@ -100,7 +100,7 @@ function ArtForSenior() {
           </Col>
           <Col className="text-lg-end" lg={6}>
             <Image
-              src={"/Images/design-art.jpg"}
+              src={"/Images/senior.jpg"}
               fluid
               className="rounded mt-lg-0 mt-5 col-lg-9 mb-lg-0 mb-5 responsive-image shadow-lg"
               alt="CAD Art for Seniors"

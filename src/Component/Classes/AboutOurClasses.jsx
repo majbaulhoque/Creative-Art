@@ -44,7 +44,7 @@ const AboutOurClasses = () => {
                     {/* Image */}
                     <div className="col-12 col-md-5 mt-4 mt-md-0">
                         <img
-                            src='/Images/whyUs.jpg'
+                            src='/Images/about-classes.jpg'
                             alt="Why Choose Us"
                             className="img-fluid rounded shadow"
                         />

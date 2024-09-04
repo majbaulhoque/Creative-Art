@@ -10,7 +10,7 @@ const VisualArt = () => {
                         {/* Image */}
                         <div className="col-12 col-md-5 order-1 order-sm-2 mt-4 mt-md-0">
                             <img
-                                src='../../../Images/visual.jpg'
+                                src='/Images/visual.jpg'
                                 alt="Why Choose Us"
                                 className="img-fluid rounded shadow"
                             />

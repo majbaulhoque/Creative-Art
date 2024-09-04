@@ -184,7 +184,7 @@ const Curriculum = () => {
           </Card>
           <img
            className="col-lg-4 col-11"
-            src="/Images/writing-art.jpg"
+            src="/Images/curriculum.jpg"
             alt=""
           />
         </div>

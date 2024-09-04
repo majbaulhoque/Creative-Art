@@ -8,7 +8,7 @@ const FineArt = () => {
                     {/* Image */}
                     <div className="col-12 col-md-5 mt-4 mt-md-0">
                         <img
-                            src="../../../Images/FindArt.jpg"
+                            src="/Images/fine-art.jpg"
                             alt="Find Art"
                             className="img-fluid rounded shadow mb-4 mb-md-5"
                         />
