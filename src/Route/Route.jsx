@@ -14,6 +14,7 @@ import AdultsDevelopment from "../Component/Classes/AdultsDevelopment";
 import DigitalArt from "../Component/Classes/DigitalArt";
 import ArtForSenior from "../Component/Classes/ArtForSenior";
 import Events from "../Pages/Events/Events";
+import Contact from "../Pages/Contact/Contact";
 
 const Route = createBrowserRouter([
   {
@@ -75,6 +76,10 @@ const Route = createBrowserRouter([
       {
         path: "/events",
         element: <Events />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
       },
     ],
   },
