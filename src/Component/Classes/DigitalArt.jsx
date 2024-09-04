@@ -22,14 +22,14 @@ function DigitalArt() {
                 <h4 className="fw-medium text-lg-start text-center">
                   Empowering Art-Minded Individuals on the Autism Spectrum
                 </h4>
-                <p className="mt-4">
+                <p className="mt-4 common-description">
                   Our educational Digital Art and Graphic Design Class is
                   specifically designed for art-minded individuals on the autism
                   spectrum. Our comprehensive program will offer an immersive
                   digital media training experience, focusing on animation and
                   graphic design disciplines.
                 </p>
-                <p className="mt-4">
+                <p className="mt-4 common-description">
                   Our program's primary objective is to empower autistic adults
                   with employable skills, tailored to meet the needs of
                   autism-friendly employers. By providing a supportive and
@@ -57,7 +57,7 @@ function DigitalArt() {
                     Focus on developing employable skills for career success
                   </li>
                 </ul>
-                <p className="mt-4">
+                <p className="mt-4 common-description">
                   Students will have the opportunity to work on building a
                   Student Online Portfolio. We will use a wide range of free
                   application software to display and market skills learned over
