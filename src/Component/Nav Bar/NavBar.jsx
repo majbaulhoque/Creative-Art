@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import '../../../src/assets/Css/index.css';
 import Logo from '../Logo';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     const [openDropdown, setOpenDropdown] = useState(null);
@@ -28,12 +28,16 @@ const NavBar = () => {
                             <Nav className="me-auto fw-bolder text-dark">
                                 <NavDropdown
                                     className="text-dark custom-dropdown text-decoration-none"
-                                    title="Home"
+                                    title={
+                                        <NavLink to="/" className="text-dark text-decoration-none" end>
+                                            Home
+                                        </NavLink>
+                                    }
                                     show={openDropdown === 'home'}
                                     onMouseEnter={() => handleMouseEnter('home')}
                                     onMouseLeave={handleMouseLeave}
                                 >
-                                    <NavDropdown.Item as={Link} to="/">Home</NavDropdown.Item>
+                                    {/* <NavDropdown.Item as={Link} to="/">Home</NavDropdown.Item> */}
                                     <NavDropdown.Item as={Link} to="/about">About Us</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/whyUs">Why Us</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/vision">Our Vision</NavDropdown.Item>
@@ -41,12 +45,17 @@ const NavBar = () => {
                                 </NavDropdown>
                                 <NavDropdown
                                     className="text-dark custom-dropdown text-decoration-none"
-                                    title="Classes"
+                                    title={
+                                        <NavLink to="/classes" className="text-dark text-decoration-none" end>
+                                            Classes
+                                        </NavLink>
+                                    }
                                     show={openDropdown === 'classes'}
+
                                     onMouseEnter={() => handleMouseEnter('classes')}
                                     onMouseLeave={handleMouseLeave}
                                 >
-                                    <NavDropdown.Item as={Link} to="/classes">Classes</NavDropdown.Item>
+                                    {/* <NavDropdown.Item as={Link} to="/classes">Classes</NavDropdown.Item> */}
                                     <NavDropdown.Item as={Link} to="/aboutOurClasses">About Our Classes</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/fineArt">Fine Art</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to="/visualArt">Visual Art</NavDropdown.Item>

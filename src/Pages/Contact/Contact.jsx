@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaPhoneAlt, FaEnvelope, FaRegClock } from 'react-icons/fa';
+import {  FaEnvelope, FaRegClock, FaInstagram } from 'react-icons/fa';
 import FormfacadeEmbed from "@formfacade/embed-react";
 
 const Contact = () => {
@@ -9,10 +9,12 @@ const Contact = () => {
                 <div className="col-12 col-md-6 mb-4">
                     <h2 className="fw-bolder mb-4  py-3 text-center text-md-start">Contact Details</h2>
                     <ul className="list-unstyled">
-                        <li className="mb-2 fs-5">
-                            <FaPhoneAlt className="me-2" style={{ color: '#32CD32' }} />
-                            017xxxxxxxxx
-                        </li>
+                        <Link to='https://www.instagram.com/creativeartanddesigninc' className="text-decoration-none" target="blank">
+                            <li className="mb-2 fs-5">
+                                <FaInstagram className="me-2" style={{ color: '#32CD32' }} />
+                                https://www.instagram.com/creativeartanddesigninc
+                            </li>
+                        </Link>
                         <li className="mb-2 fs-5">
                             <FaEnvelope className="me-2" style={{ color: '#FF4500' }} />
                             info@creativeartanddesigninc.com
@@ -25,31 +27,33 @@ const Contact = () => {
                                 Schedule Appointment
                             </button>
                         </Link>
+                        <h2 className="fw-bolder mb-4 mt-3 text-center text-md-start"> School Hours
+                            <FaRegClock className="ms-2" style={{ color: 'red' }} /></h2>
+
+                        <ul className="list-unstyled">
+                            <li className="mb-1 fs-5">Monday: 9:00 a.m. - 7:00 p.m.</li>
+                            <li className="mb-1 fs-5">Tuesday: 9:00 a.m. - 7:30 p.m.</li>
+                            <li className="mb-1 fs-5">Wednesday: 9:00 a.m. - 8:30 p.m.</li>
+                            <li className="mb-1 fs-5">Thursday: 9:00 a.m. - 8:00 p.m.</li>
+                            <li className="mb-1 fs-5">Friday: 9:00 a.m. - 3:30 p.m.</li>
+                            <li className="mb-1 fs-5">Saturday: 9:30 a.m. - 4:00 p.m.</li>
+                            <li className="mb-1 fs-5 fw-bolder" style={{ color: 'red' }}>Sunday: CLOSED</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div className="col-12 col-md-6 mb-4">
-                    <h2 className="fw-bolder mb-4 mt-3 text-center text-md-start"> School Hours
-                        <FaRegClock className="ms-2" style={{ color: 'red' }} /></h2>
-
-                    <ul className="list-unstyled">
-                        <li className="mb-1 fs-5">Monday: 9:00 a.m. - 7:00 p.m.</li>
-                        <li className="mb-1 fs-5">Tuesday: 9:00 a.m. - 7:30 p.m.</li>
-                        <li className="mb-1 fs-5">Wednesday: 9:00 a.m. - 8:30 p.m.</li>
-                        <li className="mb-1 fs-5">Thursday: 9:00 a.m. - 8:00 p.m.</li>
-                        <li className="mb-1 fs-5">Friday: 9:00 a.m. - 3:30 p.m.</li>
-                        <li className="mb-1 fs-5">Saturday: 9:30 a.m. - 4:00 p.m.</li>
-                        <li className="mb-1 fs-5 fw-bolder" style={{ color: 'red' }}>Sunday: CLOSED</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div className="row d-flex justify-content-center align-items-center my-5">
-                <div className="col-12 col-md-5 mb-4 shadow border rounded bg-gradient mx-md-4">
+                <div className="col-12 col-md-5 mb-4">
                     <FormfacadeEmbed
                         formFacadeURL="https://formfacade.com/include/100219976322488119961/form/1FAIpQLSctbcf7UWK-TK22XB8S5TUT0-RFH5e7jii-Z3yp3-aeKPBwZA/classic.js/?div=ff-compose"
                         onSubmitForm={() => console.log('Form submitted')}
                     />
+                </div>
+            </div>
+
+            {/* <div className="row d-flex justify-content-center align-items-center my-5">
+                <div className="col-12 col-md-5 mb-4 shadow border rounded bg-gradient mx-md-4">
+
+
                 </div>
 
                 <div className="col-12 col-md-6 mb-4 mx-md-4">
@@ -67,7 +71,7 @@ const Contact = () => {
                         ></iframe>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     );
