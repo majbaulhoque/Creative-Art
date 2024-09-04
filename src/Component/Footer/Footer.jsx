@@ -18,7 +18,7 @@ const Footer = () => {
 
               <hr className="w-100 clearfix d-md-none" />
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              {/* <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
                 <p>
                   <Link to="#" className="text-white text-decoration-none">MDBootstrap</Link>
@@ -32,7 +32,7 @@ const Footer = () => {
                 <p>
                   <Link to="#" className="text-white text-decoration-none">Bootstrap Angular</Link>
                 </p>
-              </div>
+              </div> */}
 
               <hr className="w-100 clearfix d-md-none" />
 
@@ -45,7 +45,7 @@ const Footer = () => {
                   <Link to="/events" className="text-white text-decoration-none">Events</Link>
                 </p>
                 <p>
-                  <Link to="#" className="text-white text-decoration-none">Products</Link>
+                  <Link to="/" className="text-white text-decoration-none">Home</Link>
                 </p>
                 <p>
                   <Link to="#" className="text-white text-decoration-none">Contact us</Link>
