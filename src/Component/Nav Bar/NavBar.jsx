@@ -64,9 +64,9 @@ const NavBar = () => {
                                 <Nav.Link as={Link} to="/events" className='text-dark' onMouseEnter={handleMouseLeave}>
                                     Events
                                 </Nav.Link>
-                                <Nav.Link as={Link} to="/products" className='text-dark' onMouseEnter={handleMouseLeave}>
+                                {/* <Nav.Link as={Link} to="/products" className='text-dark' onMouseEnter={handleMouseLeave}>
                                     Products
-                                </Nav.Link>
+                                </Nav.Link> */}
                                 <Nav.Link as={Link} to="/contact" className='text-dark' onMouseEnter={handleMouseLeave}>
                                     Contact Us
                                 </Nav.Link>
