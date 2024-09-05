@@ -2,7 +2,7 @@ const WhyUs = () => {
     return (
         <div className="why-us-container">
             <div className="container" style={{ marginTop: '90px' }}>
-                <div className="row d-flex align-items-center gx-5">
+                <div className="row d-flex align-items-center gx-lg-5">
                     <div className="col-12 col-md-7 mb-4 mb-md-0">
                         <h2 className="fw-bolder text-center mb-3 ">WHY US??</h2>
                         <p className="common-description ">
@@ -16,12 +16,22 @@ const WhyUs = () => {
                         </p>
                     </div>
                     <div className="col-12 col-md-5">
+                        
+                        <div className="d-flex flex-column gap-3">
                         <img
                             src="/Images/why-us.jpg"
                             alt="Why Us"
                             className="img-fluid why-us-image"
                         />
+                        <video
+                            className="img-fluid child-artist"
+                            controls loop autoPlay
+                        >
+                            <source src="/Images/whyUs.mp4" type="video/mp4" />
+                        </video>
                     </div>
+                    </div>
+
                 </div>
             </div>
         </div>

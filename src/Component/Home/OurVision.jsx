@@ -3,7 +3,7 @@
 const OurVision = () => {
     return (
         <div className="container" style={{ marginTop: '90px' }}>
-            <div className="row gx-5">
+            <div className="row gx-lg-5">
                 <div className="col-12 col-md-5 col-lg-4">
                     <img 
                         src="/Images/our-mission.jpg" 
