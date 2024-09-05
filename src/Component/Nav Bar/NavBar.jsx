@@ -27,7 +27,7 @@ const NavBar = () => {
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto fw-bolder text-dark">
                                 <NavDropdown
-                                    className="text-dark custom-dropdown text-decoration-none"
+                                    className="text-dark custom-dropdown custom-nav-dropdown text-decoration-none"
                                     title={
                                         <NavLink to="/" className="text-dark text-decoration-none" end>
                                             Home
@@ -44,9 +44,9 @@ const NavBar = () => {
                                 </NavDropdown>
 
                                 <NavDropdown
-                                    className="text-dark custom-dropdown text-decoration-none"
+                                    className="text-dark custom-dropdown  text-decoration-none"
                                     title={
-                                        <NavLink to="/classes" className="text-dark text-decoration-none" end>
+                                        <NavLink to="/classes" className="text-dark custom-nav-dropdown text-decoration-none" end>
                                             Classes
                                         </NavLink>
                                     }
