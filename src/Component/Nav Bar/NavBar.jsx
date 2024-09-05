@@ -22,7 +22,7 @@ const NavBar = () => {
             </div>
             <div className='navbar-container'>
                 <Navbar expand="lg">
-                    <Container>
+                    <Container className='justify-content-end text-end'>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto fw-bolder text-dark">
