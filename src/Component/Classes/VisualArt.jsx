@@ -22,6 +22,17 @@ const VisualArt = () => {
                 alt="Why Choose Us"
                 className="img-fluid rounded shadow"
               />
+              <div className="video-responsive mt-3">
+                <iframe
+                  src="https://www.youtube.com/embed/Qhoq9dzZ86s?autoplay=1&mute=1&loop=1&playlist=Qhoq9dzZ86s&si=fwsQ0YU6eYSaGJ7h"
+                  title="YouTube video player"
+                  // frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+             
               {/* <video
                 className="img-fluid child-artist mt-4"
                 controls
