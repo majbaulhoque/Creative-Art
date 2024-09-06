@@ -1,32 +1,35 @@
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
-import {
-  FaPaintBrush,
-  FaHands,
-  FaHeart,
-  FaBrain,
-} from "react-icons/fa";
+import { FaPaintBrush, FaHands, FaHeart, FaBrain } from "react-icons/fa";
 
 function AdultsDevelopment() {
   return (
     <div style={{ backgroundColor: "#f8f9fa" }}>
       <Container className="my-5">
         <Row className="align-items-center">
-          <Col lg={6}>
+          <Col md={6}>
             <Image
               src={"/Images/adult (2).jpg"}
               fluid
               className="rounded mt-lg-0 mt-5 col-lg-9 mb-lg-0 mb-5 responsive-image shadow-lg"
               alt="Art Classes for Adults with Developmental or Intellectual Disabilities"
             />
+            {/* <video
+              className="img-fluid child-artist mt-4"
+              controls
+              loop
+              autoPlay
+            >
+              <source src="/public/videoes/" type="video/mp4" />
+            </video> */}
           </Col>
-          <Col lg={6} className="mt-4 mt-lg-4">
+          <Col md={6} className="mt-4 mt-md-4">
             <Card className="border-0 bg-custom-dark">
               <Card.Body>
-                <h3 className="fw-bold text-lg-start text-center">
-                  CAD Art Classes for  <span className="text-main">Adults </span>
-                   with Developmental or Intellectual Disabilities
+                <h3 className="fw-bold text-md-start text-center">
+                  CAD Art Classes for <span className="text-main">Adults </span>
+                  with Developmental or Intellectual Disabilities
                 </h3>
-                <h4 className="fw-medium text-lg-start text-center">
+                <h4 className="fw-medium text-md-start text-center">
                   Empowering Creativity in a Supportive Environment
                 </h4>
                 <p className="mt-4 common-description">
@@ -44,44 +47,27 @@ function AdultsDevelopment() {
                     Creative expression and self-discovery
                   </li>
                   <li className="mb-2">
-                    <FaHands
-                      className="me-2"
-                      style={{ color: "#4682b4" }}
-                    />
+                    <FaHands className="me-2" style={{ color: "#4682b4" }} />
                     Social interaction and community building
                   </li>
                   <li className="mb-2">
-                    <FaHeart
-                      className="me-2"
-                      style={{ color: "#32cd32" }}
-                    />
+                    <FaHeart className="me-2" style={{ color: "#32cd32" }} />
                     Sensory exploration and motor skill development
                   </li>
                 </ul>
-                <p className="mt-4">
-                  Each class is carefully designed to:
-                </p>
+                <p className="mt-4">Each class is carefully designed to:</p>
                 <ul className="list-unstyled mt-3">
                   <li className="mb-2">
-                    <FaBrain
-                      className="me-2"
-                      style={{ color: "#ff4500" }}
-                    />
+                    <FaBrain className="me-2" style={{ color: "#ff4500" }} />
                     Foster imagination and inspiration
                   </li>
                   <li className="mb-2">
-                    <FaHands
-                      className="me-2"
-                      style={{ color: "#8a2be2" }}
-                    />
+                    <FaHands className="me-2" style={{ color: "#8a2be2" }} />
                     Encourage conversation and connection around a
                     thought-provoking topic
                   </li>
                   <li className="mb-2">
-                    <FaHeart
-                      className="me-2"
-                      style={{ color: "#ff6347" }}
-                    />
+                    <FaHeart className="me-2" style={{ color: "#ff6347" }} />
                     Foster independence and confidence
                   </li>
                 </ul>
@@ -91,24 +77,15 @@ function AdultsDevelopment() {
                 </p>
                 <ul className="list-unstyled mt-3">
                   <li className="mb-2">
-                    <FaBrain
-                      className="me-2"
-                      style={{ color: "#4682b4" }}
-                    />
+                    <FaBrain className="me-2" style={{ color: "#4682b4" }} />
                     Enhance cognitive abilities and focus
                   </li>
                   <li className="mb-2">
-                    <FaHands
-                      className="me-2"
-                      style={{ color: "#32cd32" }}
-                    />
+                    <FaHands className="me-2" style={{ color: "#32cd32" }} />
                     Develop fine motor skills and hand-eye coordination
                   </li>
                   <li className="mb-2">
-                    <FaHeart
-                      className="me-2"
-                      style={{ color: "#ff1493" }}
-                    />
+                    <FaHeart className="me-2" style={{ color: "#ff1493" }} />
                     Promote emotional well-being and self-esteem
                   </li>
                 </ul>

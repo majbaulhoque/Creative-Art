@@ -8,17 +8,16 @@ import {
 
 function ArtForSenior() {
   return (
-    <div >
+    <div>
       <Container className="my-5">
-        <Row className="align-items-center flex-lg-row flex-column-reverse">
-        
-          <Col lg={6} className="mt-4 mt-md-0">
+        <Row className="align-items-center justify-content-between flex-md-row flex-column-reverse">
+          <Col md={6} className="mt-4 mt-md-0">
             <Card className="border-0">
               <Card.Body>
-                <h3 className="fw-bold text-lg-start text-center">
+                <h3 className="fw-bold text-md-start text-center">
                   CAD <span className="text-main">Art for Seniors</span> Program
                 </h3>
-                <h4 className="fw-medium text-lg-start text-center">
+                <h4 className="fw-medium text-md-start text-center">
                   Unleashing Creativity in Later Life
                 </h4>
                 <p className="mt-4 common-description">
@@ -34,10 +33,7 @@ function ArtForSenior() {
                 </p>
                 <ul className="list-unstyled mt-3">
                   <li className="mb-2">
-                    <FaPalette
-                      className="me-2"
-                      style={{ color: "#ff6347" }}
-                    />
+                    <FaPalette className="me-2" style={{ color: "#ff6347" }} />
                     Adapt art sessions to accommodate physical and cognitive
                     abilities
                   </li>
@@ -49,10 +45,7 @@ function ArtForSenior() {
                     Foster a sense of community and social connection
                   </li>
                   <li className="mb-2">
-                    <FaSmile
-                      className="me-2"
-                      style={{ color: "#32cd32" }}
-                    />
+                    <FaSmile className="me-2" style={{ color: "#32cd32" }} />
                     Encourage self-expression and creativity
                   </li>
                 </ul>
@@ -62,17 +55,11 @@ function ArtForSenior() {
                 </p>
                 <ul className="list-unstyled mt-3">
                   <li className="mb-2">
-                    <FaBrush
-                      className="me-2"
-                      style={{ color: "#ff4500" }}
-                    />
+                    <FaBrush className="me-2" style={{ color: "#ff4500" }} />
                     Rekindle their passion for art and creativity
                   </li>
                   <li className="mb-2">
-                    <FaPalette
-                      className="me-2"
-                      style={{ color: "#8a2be2" }}
-                    />
+                    <FaPalette className="me-2" style={{ color: "#8a2be2" }} />
                     Explore new forms of self-expression
                   </li>
                   <li className="mb-2">
@@ -83,10 +70,7 @@ function ArtForSenior() {
                     Enhance their cognitive and motor skills
                   </li>
                   <li className="mb-2">
-                    <FaSmile
-                      className="me-2"
-                      style={{ color: "#4682b4" }}
-                    />
+                    <FaSmile className="me-2" style={{ color: "#4682b4" }} />
                     Boost their mood and overall well-being
                   </li>
                 </ul>
@@ -98,13 +82,32 @@ function ArtForSenior() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="text-lg-end" lg={6}>
+          <Col className=" d-lg-flex justify-content-end align-items-end flex-column gap-3" md={6}>
             <Image
               src={"/Images/senior.jpg"}
               fluid
               className="rounded mt-lg-0 mt-5 col-lg-9 mb-lg-0 mb-5 responsive-image shadow-lg"
               alt="CAD Art for Seniors"
             />
+            {/* <video
+              className="img-fluid col-lg-9 mb-lg-0 child-artist mt-4"
+              controls
+              loop
+              autoPlay
+            >
+              <source src="/videoes/Art for Seniors.mp4" type="video/mp4" />
+            </video> */}
+            <div className="video-responsive col-lg-9 mb-lg-0 ">
+              <iframe
+                src="https://www.youtube.com/embed/bDaqWPW-guE?autoplay=1&mute=1&loop=1&playlist=bDaqWPW-guE&si=dav1FM1CdNJEMPYP"
+                title="YouTube video player"
+                // frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              
+            </div>
           </Col>
         </Row>
       </Container>

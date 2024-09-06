@@ -9,20 +9,31 @@ import {
 
 const SocialPresentation = () => {
   return (
-    <div style={{backgroundColor:"#f8f9fa"}}>
+    <div style={{ backgroundColor: "#f8f9fa" }}>
       <Container className="my-5">
         <Row className="align-items-center">
-          <Col lg={6} className="">
+          <Col
+            className="d-lg-flex justify-content-end align-items-start gap-3 flex-column"
+            md={6}
+          >
             <Image
-            //   style={{ maxWidth: "500px" }}
-            src={"/Images/social-presentation.jpg"}
+              src={"/Images/design-art.jpg"}
               fluid
-              className="rounded mt-lg-0 mt-5 col-lg-9 mb-lg-0 mb-5 responsive-image shadow-lg"
-              alt="Social Presentation"
+              className="rounded mt-md-0 mt-5 col-md-9 mb-lg-0 mb-5 responsive-image shadow-lg"
+              alt="CAD Art for Seniors"
             />
+            <div className="video-responsive col-lg-9 mb-lg-0 ">
+              <iframe
+                src="https://www.youtube.com/embed/P4jjVPuGWEM?autoplay=1&mute=1&loop=1&playlist=P4jjVPuGWEM&si=0dYGW5fe4o1a0-Ex"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
           </Col>
-          <Col lg={6} className="mt-4 mt-lg-4">
-            <Card  className="border-0 bg-custom-dark">
+          <Col md={6} className="mt-4 mt-lg-4">
+            <Card className="border-0 bg-custom-dark">
               <Card.Body>
                 <h3 className="fw-bold text-lg-start text-center">
                   CAD <span className="text-main">Social</span> Presentation

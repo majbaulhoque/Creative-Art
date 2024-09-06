@@ -1,24 +1,24 @@
 const AboutUs = () => {
     return (
-        <div className="container" style={{ marginTop: '90px' }} >
+        <div className="container" style={{ marginTop: '45px' }} >
             <div className="row d-flex align-items-center my-5">
-                <div className="col-12 col-md-6 col-lg-5 mb-3 mb-md-0">
+                <div className="col-12 col-md-12 col-lg-5 mb-3 mb-md-0">
                     <div className="d-flex flex-column gap-3">
                         <img
                             src="/Images/about-us.jpg"
                             alt="Child Artist"
                             className="img-fluid child-artist"
                         />
-                        <video
+                        {/* <video
                             className="img-fluid child-artist"
                             controls loop autoPlay
                         >
                             <source src="/Images/AboutUs.mp4" type="video/mp4" />
-                        </video>
+                        </video> */}
                     </div>
                 </div>
 
-                <div className="col-12 col-md-7 col-lg-7">
+                <div className="col-12 col-md-12 mt-lg-0 mt-5 col-lg-7">
                     <h1 className="fw-bolder">Every child is an artist
                     </h1>
                     <div className="mx-4">

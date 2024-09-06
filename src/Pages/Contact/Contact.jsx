@@ -8,11 +8,11 @@ const Contact = () => {
             <div className="row">
                 <div className="col-12 col-md-6 mb-4">
                     <h2 className="fw-bolder mb-4  py-3 text-center text-md-start">Contact Details</h2>
-                    <ul className="list-unstyled">
+                    <ul className="list-unstyled text-center text-lg-start">
                         <Link to='https://www.instagram.com/creativeartanddesigninc' className="text-decoration-none" target="blank">
                             <li className="mb-2 fs-5">
                                 <FaInstagram className="me-2" style={{ color: '#32CD32' }} />
-                                https://www.instagram.com/creativeartanddesigninc
+                                https://shorturl.at/Q3TJJ
                             </li>
                         </Link>
                         <li className="mb-2 fs-5">
@@ -42,7 +42,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="col-12 col-md-5 mb-4">
+                <div className="col-12 col-md-5 mb-4 rounded transparent shadow-lg ">
                     <FormfacadeEmbed
                         formFacadeURL="https://formfacade.com/include/100219976322488119961/form/1FAIpQLSctbcf7UWK-TK22XB8S5TUT0-RFH5e7jii-Z3yp3-aeKPBwZA/classic.js/?div=ff-compose"
                         onSubmitForm={() => console.log('Form submitted')}

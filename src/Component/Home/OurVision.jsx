@@ -3,7 +3,7 @@
 const OurVision = () => {
     return (
         <div className="container" style={{ marginTop: '90px' }}>
-            <div className="row gx-5">
+            <div className="row gx-lg-5">
                 <div className="col-12 col-md-5 col-lg-4">
                     <img 
                         src="/Images/our-mission.jpg" 
@@ -11,7 +11,7 @@ const OurVision = () => {
                         className="img-fluid vision-image shadow" 
                     />
                 </div>
-                <div className="col-12 col-md-7 col-lg-8">
+                <div className="col-12 col-md-7 mt-md-0 mt-5 col-lg-8">
                     <h2 className="fw-bolder">MISSION CAD: Empowering Creativity, Connecting Communities.</h2>
                     <p className="common-description">
                         At CAD, we believe in the transformative power of arts education. Our mission is to provide a platform for children, teens, and adults to unlock their creative potential, cultivate their talents, and forge meaningful connections with others. By sharing creative experiences, we foster a culture of diversity, inclusivity, and mutual respect, enriching lives and strengthening our community.

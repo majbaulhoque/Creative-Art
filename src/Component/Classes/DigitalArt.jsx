@@ -11,15 +11,15 @@ function DigitalArt() {
   return (
     <div>
       <Container className="my-5">
-        <Row className="align-items-center flex-lg-row flex-column-reverse">
-          <Col lg={6} className="mt-4 mt-md-0">
+        <Row className="align-items-center flex-md-row flex-column-reverse">
+          <Col md={6} className="mt-4 mt-md-0">
             <Card className="border-0">
               <Card.Body>
-                <h3 className="fw-bold text-lg-start text-center">
+                <h3 className="fw-bold text-md-start text-center">
                   CAD Digital <span className="text-main">Art</span> and{" "}
                   <span className="text-main">Graphic Design</span> Class
                 </h3>
-                <h4 className="fw-medium text-lg-start text-center">
+                <h4 className="fw-medium text-md-start text-center">
                   Empowering Art-Minded Individuals on the Autism Spectrum
                 </h4>
                 <p className="mt-4 common-description">
@@ -92,15 +92,24 @@ function DigitalArt() {
               </Card.Body>
             </Card>
           </Col>
-          <Col className="text-lg-end" lg={6}>
-            <div style={{maxHeight:'400px'}} className="overflow-hidden">
-              <Image
-                // style={{maxHeight:"500px"}}
-                src={"/Images/digital-art.jpg"}
-                fluid
-                className="rounded object-cover ms-auto mt-lg-0 mt-5 text-lg-end col-lg-9 mb-lg-0 mb-5 responsive-image shadow-lg"
-                alt="Digital Art and Graphic Design Class"
-              />
+          <Col
+            className="d-lg-flex justify-content-end align-items-end gap-3 flex-column"
+            md={6}
+          >
+            <Image
+              src={"/Images/design-art.jpg"}
+              fluid
+              className="rounded mt-md-0 mt-5 col-md-9 mb-lg-0 mb-5 responsive-image shadow-lg"
+              alt="CAD Art for Seniors"
+            />
+            <div className="video-responsive col-lg-9 mb-lg-0 ">
+              <iframe
+                src="https://www.youtube.com/embed/G0zHrD5Cf2o?autoplay=1&mute=1&loop=1&playlist=G0zHrD5Cf2o&si=ZFF3OjTXdMZSew4D"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
           </Col>
         </Row>
