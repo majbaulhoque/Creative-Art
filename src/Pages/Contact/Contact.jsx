@@ -22,7 +22,7 @@ const Contact = () => {
                     </ul>
                     <div className="text-center text-md-start">
                         <h2 className="fw-bolder mb-4  py-3">Appointment Scheduling</h2>
-                        <Link to="https://calendly.com/event_types/user/me" target="_blank" rel="noopener noreferrer">
+                        <Link to="https://calendly.com/creativeartanddesigninc/30min" target="_blank" rel="noopener noreferrer">
                             <button className="btn btn-primary text-white px-4 py-2 rounded shadow">
                                 Schedule Appointment
                             </button>
