@@ -63,7 +63,7 @@ const WhyUs = () => {
           <div className="col-md-4 shadow-lg col-12">
             <img
               className="w-100 h-100 object-fit-cover"
-              src="/public/images_2/Why US-2.webp"
+              src="/images_2/Why US-2.webp"
               alt=""
             />
           </div>
