@@ -8,9 +8,16 @@ function AdultsDevelopment() {
         <Row className="align-items-center">
           <Col md={6}>
             <Image
-              src={"/Images/adult (2).jpg"}
+              src={"/images_2/Art for Special Needs-1.jpg"}
               fluid
-              className="rounded mt-lg-0 mt-5 col-lg-9 mb-lg-0 mb-5 responsive-image shadow-lg"
+              className="rounded mt-lg-0 mt-5 col-lg-9 mb-lg-0 mb-5 responsive-image "
+              alt="Art Classes for Adults with Developmental or Intellectual Disabilities"
+            />
+       
+            <Image
+              src={"/images_2/Art for Special Needs-2.jpg"}
+              fluid
+              className="rounded mt-lg-4 mt-5 col-lg-9 mb-lg-0 mb-5 responsive-image "
               alt="Art Classes for Adults with Developmental or Intellectual Disabilities"
             />
             {/* <video
@@ -26,17 +33,20 @@ function AdultsDevelopment() {
             <Card className="border-0 bg-custom-dark">
               <Card.Body>
                 <h3 className="fw-bold text-md-start text-center">
-                  CAD Art Classes for <span className="text-main">Adults </span>
+                  CAD Art Classes for{" "}
+                  <span className="text-main">Special Needs </span>
                   with Developmental or Intellectual Disabilities
                 </h3>
                 <h4 className="fw-medium text-md-start text-center">
                   Empowering Creativity in a Supportive Environment
                 </h4>
                 <p className="mt-4 common-description">
-                  Our inclusive art classes offer a vibrant and supportive
-                  environment where adults with developmental or intellectual
-                  disabilities can thrive. Through stimulating and colorful
-                  projects, participants engage in:
+                  Our inclusive art classes create a warm and welcoming
+                  environment where children and young individuals with
+                  developmental or intellectual disabilities can shine. Through
+                  fun and colorful projects, participants can express their
+                  creativity, learn new skills, and build confidence in a
+                  nurturing community
                 </p>
                 <ul className="list-unstyled mt-3">
                   <li className="mb-2">

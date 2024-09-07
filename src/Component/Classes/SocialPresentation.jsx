@@ -1,4 +1,4 @@
-import { Container, Row, Col, Image, Card } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import {
   FaHandshake,
   FaBullhorn,
@@ -16,12 +16,12 @@ const SocialPresentation = () => {
             className="d-lg-flex justify-content-end align-items-start gap-3 flex-column"
             md={6}
           >
-            <Image
-              src={"/Images/design-art.jpg"}
+            {/* <Image
+              src={"/public/images_2/"}
               fluid
               className="rounded mt-md-0 mt-5 col-md-9 mb-lg-0 mb-5 responsive-image shadow-lg"
               alt="CAD Art for Seniors"
-            />
+            /> */}
             <div className="video-responsive col-lg-9 mb-lg-0 ">
               <iframe
                 src="https://www.youtube.com/embed/P4jjVPuGWEM?autoplay=1&mute=1&loop=1&playlist=P4jjVPuGWEM&si=0dYGW5fe4o1a0-Ex"

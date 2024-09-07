@@ -2,8 +2,33 @@ const WhyUs = () => {
   return (
     <div className="why-us-container">
       <div className="container" style={{ marginTop: "90px" }}>
+        <div style={{ maxHeight: "620px" }} className="row gx-md-5 overflow-hidden">
+          <div className="col-md-4 shadow-lg col-12">
+            <img
+              className="w-100 h-100  object-fit-cover"
+              src="/images_2/Why Us-1.jpg"
+              alt=""
+            />
+          </div>
+          <div className="col-md-4 shadow-lg border border-light-subtle col-12">
+            <img
+              className="w-100 h-100 object-fit-cover"
+              src="/images_2/Why Us-3.jpg"
+              alt=""
+            />
+          </div>
+
+          <div className="col-md-4 shadow-lg col-12">
+            <img
+              className="w-100 h-100 object-fit-cover"
+              src="/public/images_2/Why US-2.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
         <div className="row d-flex align-items-center gx-lg-5">
-          <div className="col-12 col-md-7 mb-4 mb-md-0">
+          <div className="col-12 col-md-7 mt-md-5 mb-4 mb-md-0">
             <h2 className="fw-bolder text-center mb-3 ">WHY US??</h2>
             <p className="common-description ">
               At Creative Art and Design (CAD), we take immense pride in
@@ -33,17 +58,6 @@ const WhyUs = () => {
           </div>
           <div className="col-12 col-md-5">
             <div className="d-flex flex-column gap-3">
-              <img
-                src="/Images/why-us.jpg"
-                alt="Why Us"
-                className="img-fluid why-us-image"
-              />
-              {/* <video
-                            className="img-fluid child-artist"
-                            controls loop autoPlay
-                        >
-                            <source src="/videoes/Why Us.mp4" type="video/mp4" autoPlay/>
-                        </video> */}
               <div className="video-responsive">
                 <iframe
                   src="https://www.youtube.com/embed/e3R8pHa-TJc?autoplay=1&mute=1&loop=1&playlist=e3R8pHa-TJc&si=FB6XhMoiKeoj4wv"

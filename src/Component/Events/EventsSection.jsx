@@ -11,15 +11,11 @@ const EventsSection = () => {
         <Row className="align-items-center">
           <Col md={12} className="mb-4 d-flex flex-lg-row flex-column justify-content-center gap-5 mb-md-0">
             <img 
-              src="/Images/event-2.png" 
+              src="/public/images_2/Events.jpg" 
               alt="Art Event" 
-              className="img-fluid col-lg-4 rounded shadow-lg animate-img" 
+              className="img-fluid col-lg-7 rounded shadow-lg animate-img" 
             />
-            <img 
-              src="/Images/event-1.png" 
-              alt="Art Event" 
-              className="img-fluid rounded col-lg-4 shadow-lg animate-img" 
-            />
+            
           </Col>
           <Col className='bg-custom-dark mt-5 text-center' md={12}>
            <div className='mb-4'>

@@ -84,7 +84,7 @@ function ArtForSenior() {
           </Col>
           <Col className=" d-lg-flex justify-content-end align-items-end flex-column gap-3" md={6}>
             <Image
-              src={"/Images/senior.jpg"}
+              src={"/public/images_2/Art for Seniors.jpg"}
               fluid
               className="rounded mt-lg-0 mt-5 col-lg-9 mb-lg-0 mb-5 responsive-image shadow-lg"
               alt="CAD Art for Seniors"

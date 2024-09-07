@@ -6,7 +6,7 @@ const OurVision = () => {
             <div className="row d-flex align-items-center gx-lg-5">
                 <div className="col-12 col-md-5 col-lg-4">
                     <img 
-                        src="https://i.ibb.co.com/mbY9BvG/Our-Vision-Mission.jpg" 
+                        src="/images_2/Home Page.jpg" 
                         alt="Our Mission"
                         className="img-fluid vision-image shadow" 
                     />

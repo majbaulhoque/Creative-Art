@@ -68,11 +68,11 @@ const AboutOurClasses = () => {
           </div>
 
           <div className="col-12 col-md-5 mt-4 mt-md-0">
-            <img
-              src="/Images/about-classes.jpg"
+            {/* <img
+              src="/public/images_2/"
               alt="Why Choose Us"
               className="img-fluid rounded shadow"
-            />
+            /> */}
             <div className="video-responsive mt-5">
               <iframe
                 src="https://www.youtube.com/embed/mREHujYIw3I?autoplay=1&mute=1&loop=1&playlist=mREHujYIw3I&si=Nqmcv01kwb26E28Q"
