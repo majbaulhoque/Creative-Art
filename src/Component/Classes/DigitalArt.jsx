@@ -97,9 +97,10 @@ function DigitalArt() {
             md={6}
           >
             <Image
-              src={"/Images/design-art.jpg"}
-              fluid
+              src="https://i.ibb.co.com/PgN54Fs/Digital-Art.jpg"
+              
               className="rounded mt-md-0 mt-5 col-md-9 mb-lg-0 mb-5 responsive-image shadow-lg"
+              height='300px'
               alt="CAD Art for Seniors"
             />
             <div className="video-responsive col-lg-9 mb-lg-0 ">

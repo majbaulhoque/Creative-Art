@@ -3,10 +3,10 @@
 const OurVision = () => {
     return (
         <div className="container" style={{ marginTop: '90px' }}>
-            <div className="row gx-lg-5">
+            <div className="row d-flex align-items-center gx-lg-5">
                 <div className="col-12 col-md-5 col-lg-4">
                     <img 
-                        src="/Images/our-mission.jpg" 
+                        src="https://i.ibb.co.com/mbY9BvG/Our-Vision-Mission.jpg" 
                         alt="Our Mission"
                         className="img-fluid vision-image shadow" 
                     />

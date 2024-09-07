@@ -5,16 +5,15 @@ const AboutUs = () => {
                 <div className="col-12 col-md-12 col-lg-5 mb-3 mb-md-0">
                     <div className="d-flex flex-column gap-3">
                         <img
-                            src="/Images/about-us.jpg"
+                            src="https://i.ibb.co.com/w4xq3BL/About-Us-2.jpg"
                             alt="Child Artist"
                             className="img-fluid child-artist"
                         />
-                        {/* <video
+                        <img
+                            src="https://i.ibb.co.com/VQhhfTT/About-Us-1.jpg"
+                            alt="Child Artist"
                             className="img-fluid child-artist"
-                            controls loop autoPlay
-                        >
-                            <source src="/Images/AboutUs.mp4" type="video/mp4" />
-                        </video> */}
+                        />
                     </div>
                 </div>
 
