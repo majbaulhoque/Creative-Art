@@ -10,17 +10,10 @@ const EventsSection = () => {
       <Container>
         <Row className="align-items-center">
           <Col md={12} className="mb-4 d-flex flex-lg-row flex-column justify-content-center gap-5 mb-md-0">
-<<<<<<< HEAD
-            <img
-              src="/public/images_2/Events.jpg"
-              alt="Art Event"
-              className="img-fluid col-lg-7 rounded shadow-lg animate-img"
-=======
             <img 
-              src="/images_2/Events.webp" 
+              src="https://i.ibb.co.com/3T2M3Dy/Events.webp" 
               alt="Art Event" 
               className="img-fluid col-lg-6 rounded shadow-lg animate-img" 
->>>>>>> b4bc2b592beedbfdbc7026efb94a904528a1493f
             />
 
           </Col>
