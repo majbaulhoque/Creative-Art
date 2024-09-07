@@ -10,23 +10,23 @@ const EventsSection = () => {
       <Container>
         <Row className="align-items-center">
           <Col md={12} className="mb-4 d-flex flex-lg-row flex-column justify-content-center gap-5 mb-md-0">
-            <img 
-              src="/public/images_2/Events.jpg" 
-              alt="Art Event" 
-              className="img-fluid col-lg-7 rounded shadow-lg animate-img" 
+            <img
+              src="/public/images_2/Events.jpg"
+              alt="Art Event"
+              className="img-fluid col-lg-7 rounded shadow-lg animate-img"
             />
-            
+
           </Col>
           <Col className='bg-custom-dark mt-5 text-center' md={12}>
-           <div className='mb-4'>
-           <h3 className="mb-2">Join us for unforgettable <span className='text-main'>art events</span> at CAD!</h3>
-            <p>
-              Where self-expression meets joy. Our hassle-free parties and private events offer:
-            </p>
-           </div>
-            <ListGroup  className="event-details bg-custom-dark mb-4">
+            <div className='mb-4'>
+              <h3 className="mb-2">Join us for unforgettable <span className='text-main'>art events</span> at CAD!</h3>
+              <p>
+                Where self-expression meets joy. Our hassle-free parties and private events offer:
+              </p>
+            </div>
+            <ListGroup className="event-details bg-custom-dark mb-4">
               <ListGroup.Item className="d-flex align-items-center animate-list-item">
-                <MdCelebration className="icon text-primary me-2" /> 
+                <MdCelebration className="icon text-primary me-2" />
                 Fully customized art experiences tailored to your goals and interests
               </ListGroup.Item>
               <ListGroup.Item className="d-flex align-items-center animate-list-item">
@@ -47,7 +47,7 @@ const EventsSection = () => {
               </ListGroup.Item>
             </ListGroup>
             <div className='mt-5 mb-4'>
-            <h3 className="">Choose from a <span className='text-main'>variety</span> of events, including:</h3>
+              <h3 className="">Choose from a <span className='text-main'>variety</span> of events, including:</h3>
             </div>
             <ListGroup className="event-types">
               <ListGroup.Item className="d-flex align-items-center animate-list-item">

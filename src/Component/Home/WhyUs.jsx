@@ -2,31 +2,6 @@ const WhyUs = () => {
   return (
     <div className="why-us-container">
       <div className="container" style={{ marginTop: "90px" }}>
-        <div style={{ maxHeight: "620px" }} className="row gx-md-5 overflow-hidden">
-          <div className="col-md-4 shadow-lg col-12">
-            <img
-              className="w-100 h-100  object-fit-cover"
-              src="/images_2/Why Us-1.jpg"
-              alt=""
-            />
-          </div>
-          <div className="col-md-4 shadow-lg border border-light-subtle col-12">
-            <img
-              className="w-100 h-100 object-fit-cover"
-              src="/images_2/Why Us-3.jpg"
-              alt=""
-            />
-          </div>
-
-          <div className="col-md-4 shadow-lg col-12">
-            <img
-              className="w-100 h-100 object-fit-cover"
-              src="/public/images_2/Why US-2.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-
         <div className="row d-flex align-items-center gx-lg-5">
           <div className="col-12 col-md-7 mt-md-5 mb-4 mb-md-0">
             <h2 className="fw-bolder text-center mb-3 ">WHY US??</h2>
@@ -68,6 +43,29 @@ const WhyUs = () => {
                 ></iframe>
               </div>
             </div>
+          </div>
+        </div>
+        <div style={{ maxHeight: "620px" }} className="row gx-md-5 overflow-hidden">
+          <div className="col-md-4 shadow-lg col-12">
+            <img
+              className="w-100 h-100  object-fit-cover"
+              src="/images_2/Why Us-1.webp"
+              alt=""
+            />
+          </div>
+          <div className="col-md-4 shadow-lg border border-light-subtle col-12">
+            <img
+              className="w-100 h-100 object-fit-cover"
+              src="/images_2/Why Us-3.webp"
+              alt=""
+            />
+          </div>
+          <div className="col-md-4 shadow-lg col-12">
+            <img
+              className="w-100 h-100 object-fit-cover"
+              src="/public/images_2/Why US-2.webp"
+              alt=""
+            />
           </div>
         </div>
       </div>

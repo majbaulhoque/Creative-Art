@@ -8,14 +8,13 @@ function AdultsDevelopment() {
         <Row className="align-items-center">
           <Col md={6}>
             <Image
-              src={"/images_2/Art for Special Needs-1.jpg"}
+              src="/images_2/Art for Special Needs-1.webp"
               fluid
               className="rounded mt-lg-0 mt-5 col-lg-9 mb-lg-0 mb-5 responsive-image "
               alt="Art Classes for Adults with Developmental or Intellectual Disabilities"
             />
-       
             <Image
-              src={"/images_2/Art for Special Needs-2.jpg"}
+              src="/images_2/Art for Special Needs-2.webp"
               fluid
               className="rounded mt-lg-4 mt-5 col-lg-9 mb-lg-0 mb-5 responsive-image "
               alt="Art Classes for Adults with Developmental or Intellectual Disabilities"
